@@ -1,0 +1,16 @@
+$background: rgb(37, 37, 117);
+
+@mixin buttons{
+    background-color: $background;
+    border-radius: 10px;
+    border-color: $background;
+    font-size: 18px;
+    color: white;
+    width: 45%;
+}
+
+@mixin img-card{
+    border-radius: 700px;
+    height: 130px;
+    width: 45%;
+}

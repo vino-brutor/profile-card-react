@@ -1,0 +1,22 @@
+@import './variables.scss' ;
+
+
+body{
+    background-color: $background;
+    height: 100%;
+}
+
+
+
+.card-custom{
+    min-height: 450px;
+    margin-top: 50px;
+}
+
+.btn{
+    @include buttons
+}
+
+.img-custom{
+    @include img-card
+}
