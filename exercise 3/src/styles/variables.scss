@@ -1,7 +1,9 @@
 $background: rgb(37, 37, 117);
+$backgroudnBtn: linear-gradient(90deg, rgba(37,37,117,1) 73%, rgba(88,88,139,1) 92%, rgba(176,176,176,1) 100%);
 
 @mixin buttons{
-    background-color: $background;
+    background: $background;
+    background: $backgroudnBtn;
     border-radius: 10px;
     border-color: $background;
     font-size: 18px;
